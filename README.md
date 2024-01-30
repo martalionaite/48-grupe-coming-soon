@@ -3,7 +3,7 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Astronautas
+# Coming soon
 
 _website design project_
 
@@ -13,7 +13,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://martalionaite.github.io/48-grupe-ufo/
+Site published at: https://martalionaite.github.io/48-grupe-coming-soon/
 
 Design: [coming soon](https://cdn.discordapp.com/attachments/850245533838868480/850246473362178048/coming-soon-wide.png)
 
@@ -49,7 +49,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/front-end-by-rimantas/48-grupe-astronautas.git
+    git clone https://github.com/martalionaite/48-grupe-coming-soon.git
     ```
 2. Install NPM packages
     ```sh

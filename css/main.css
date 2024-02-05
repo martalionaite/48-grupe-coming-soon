@@ -91,6 +91,22 @@ text-transform: uppercase;
 
 /*FOTER*/
 
+footer.container {
+    padding-top: 0;
+}
+
+.socials.row {
+    gap: 30px;
+    padding: 20px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.socials > a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
 .footer-bottom {
     text-align: center;
 }

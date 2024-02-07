@@ -49,20 +49,28 @@ body {
 /* HERO */
 
 .hero {
+    min-height: 100vh;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero > div {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.25rem;
     text-align: center;
 }
-.hero > .logo {
+.hero .logo {
     height: 2.5rem;
     margin-bottom: 1.25rem;
 }
-.hero > .main-title {
+.hero .main-title {
     font-size: 5rem;
 }
-.hero > .description {
+.hero .description {
     font-size: 1.25rem;
 }
 

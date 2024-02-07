@@ -63,6 +63,7 @@ body {
     gap: 1.25rem;
     text-align: center;
 }
+<<<<<<< HEAD
 .hero .logo {
     height: 2.5rem;
     margin-bottom: 1.25rem;
@@ -71,6 +72,16 @@ body {
     font-size: 5rem;
 }
 .hero .description {
+=======
+.hero > .logo {
+    height: 2.5rem;
+    margin-bottom: 1.25rem;
+}
+.hero > .main-title {
+    font-size: 5rem;
+}
+.hero > .description {
+>>>>>>> 960ab3cb68e6eac93b9d472e71401e0ce430ec83
     font-size: 1.25rem;
 }
 

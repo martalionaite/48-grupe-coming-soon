@@ -1,0 +1,60 @@
+.row.btn-list {
+    gap: 1rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 1em 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+        sans-serif;
+    font-size: 1.25rem;
+    line-height: 1em;
+    background-color: #ea1e63;
+    color: #fff;
+    font-weight: normal;
+    text-decoration: none;
+    border-radius: 0.4em;
+    border: none;
+    cursor: pointer;
+    user-select: none;
+}
+.btn:hover {
+    background-color: #c31851;
+}
+
+.btn.btn-big {
+    font-size: 2rem;
+}
+.btn.btn-small {
+    font-size: 0.7rem;
+}
+
+.btn.btn-yellow {
+    background-color: #ffff00;
+    color: #111;
+}
+.btn.btn-yellow:hover {
+    background-color: #d3d303;
+    color: #111;
+}
+.btn.btn-green {
+    background-color: #00ff00;
+    color: #111;
+}
+.btn.btn-green:hover {
+    background-color: #00d300;
+    color: #111;
+}
+
+.btn.btn-squar {
+    border-radius: 0;
+}
+.btn.btn-rounder {
+    border-radius: 1em;
+}
+.btn.btn-stadium {
+    border-radius: 1.5em;
+}

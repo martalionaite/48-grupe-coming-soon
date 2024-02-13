@@ -28,52 +28,25 @@
     overflow: hidden;
 }
 .progress-bar .progress {
-    background-color: #03a9f4;
     width: 90%;
     height: inherit;
+}
+.progress-bar .progress::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: inherit;
+    background-color: #03a9f4;
     border-radius: 0 0.25rem 0.25rem 0;
-    animation-name: loading-89;
+    animation-name: loading;
     animation-duration: 3s;
 }
 
-.progress-bar .progress.value-89 {
-    width: 90%;
-    animation-name: loading-89;
-}
-
-.progress-bar .progress.value-86 {
-    width: 86%;
-    animation-name: loading-86;
-}
-
-.progress-bar .progress.value-50 {
-    width: 50%;
-    animation-name: loading-50;
-}
-
-
-@keyframes loading-50 {
+@keyframes loading {
     0% {
         width: 0;
     }
     100% {
-        width: 50%;
-    }
-}
-@keyframes loading-89 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 89%;
-    }
-}
-
-@keyframes loading-86 {
-    0% {
-        width: 0;
-    }
-    100% {
-        width: 86%;
+        width: 100%;
     }
 }

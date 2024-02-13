@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 body * {
     margin: 0;
@@ -93,6 +97,24 @@ body {
     text-decoration: underline;
 }
 
+.form-sub {
+    justify-content: center;
+}
+.form-sub input {
+    color: #fff;
+    border-color: #fff;
+}
+.form-sub input::placeholder {
+    color: #fff;
+}
+
+@media (min-width: 70rem) {
+    .form-message .form-row:nth-child(1),
+    .form-message .form-row:nth-child(2) {
+        width: calc(50% - 0.5rem);
+    }
+}
+
 /* FOOTER */
 
 footer.container {
@@ -142,6 +164,17 @@ footer p > a {
 }
 footer p > a:hover {
     text-decoration: underline;
+}
+
+.back-to-top {
+    background-color: red;
+    width: 100px;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
 }
 
 /* RESPONSIVE */

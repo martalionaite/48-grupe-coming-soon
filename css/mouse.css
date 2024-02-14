@@ -19,7 +19,6 @@
     animation-duration: 0.9s;
     animation-iteration-count: infinite;
 }
-
 .mouse:hover::before {
     animation-play-state: paused;
 }

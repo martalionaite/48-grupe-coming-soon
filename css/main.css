@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -16,7 +17,7 @@ body {
 }
 
 .bg-primary {
-    background-color: #03a9f4;
+    background-color: var(--primary);
 }
 
 /* LAYOUT */
@@ -86,15 +87,33 @@ body {
 }
 .section-description {
     font-size: 1.1rem;
-    color: #737779;
+    color: var(--grey-1);
 }
 .section-description > a {
-    color: #ea1e63;
+    color: var(--secondary-1);
     text-decoration: none;
 }
 .section-description > a:hover {
-    color: #c31851;
+    color: var(--secondary-2);
     text-decoration: underline;
+}
+
+.form-sub {
+    justify-content: center;
+}
+.form-sub input {
+    color: #fff;
+    border-color: #fff;
+}
+.form-sub input::placeholder {
+    color: #fff;
+}
+
+@media (min-width: 70rem) {
+    .form-message .form-row:nth-child(1),
+    .form-message .form-row:nth-child(2) {
+        width: calc(50% - 0.5rem);
+    }
 }
 
 /* FOOTER */
@@ -123,7 +142,7 @@ footer.container {
 }
 .socials > a:hover {
     background-color: #fff;
-    color: #03a9f4;
+    color: var(--primary);
     transition: all 1s;
 }
 
@@ -149,7 +168,6 @@ footer p > a:hover {
 }
 
 .back-to-top {
-    background-color: red;
     width: 100px;
     position: fixed;
     bottom: 5rem;

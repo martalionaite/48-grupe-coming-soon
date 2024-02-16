@@ -28,8 +28,3 @@
     overflow: hidden;
 }
 .progress-bar .progress {
-    background-color: #03a9f4;
-    width: 90%;
-    height: inherit;
-    border-radius: 0 0.25rem 0.25rem 0;
-}
